@@ -35,7 +35,7 @@ const TabNavigator = createBottomTabNavigator({
       if(routeName === "Write Story"){
         return(
           <Image
-          source={require("./assets/write.png")}
+          source={require('./assets/write.png')}
           style={{width:40, height:40}}
         />
         )
@@ -44,7 +44,7 @@ const TabNavigator = createBottomTabNavigator({
       else if(routeName === "Read Story"){
         return(
           <Image
-          source={require("./assets/read.png")}
+          source={require('./assets/read.png')}
           style={{width:40, height:40}}
         />)
         
