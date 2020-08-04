@@ -32,7 +32,7 @@ const TabNavigator = createBottomTabNavigator({
   defaultNavigationOptions: ({navigation})=>({
     tabBarIcon: ()=>{
       const routeName = navigation.state.routeName;
-      if(routeName === "Write Screen"){
+      if(routeName === "Write Story"){
         return(
           <Image
           source={require("./assets/write.png")}
@@ -41,7 +41,7 @@ const TabNavigator = createBottomTabNavigator({
         )
         
       }
-      else if(routeName === "Read Screen"){
+      else if(routeName === "Read Story"){
         return(
           <Image
           source={require("./assets/read.png")}
