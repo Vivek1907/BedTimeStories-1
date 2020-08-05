@@ -26,8 +26,8 @@ const styles = StyleSheet.create({
 });
 
 const TabNavigator = createBottomTabNavigator({
-  'Write Screen': {screen: WriteScreen},
-  'Read Screen': {screen: ReadScreen}
+  'Write Story': {screen: WriteScreen},
+  'Read Story': {screen: ReadScreen}
 }, {
   defaultNavigationOptions: ({navigation})=>({
     tabBarIcon: ()=>{
